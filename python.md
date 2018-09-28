@@ -8,14 +8,14 @@
 
 2. python基础教程的附录是个好东西:
 > 比如附录A是python的一个**简明教程**，十分钟学会大部分语法，附录B里面有**表达式**，**重要的内置函数**，**列表，字典，字符串的一些常见方法（函数）**，**常见的语句（如import语句，if，while,for,函数类定义）**等，基本就是python的一些核心知识
-
+3. 当在实际应用的时候发现哪个地方不懂，在去翻书看相应的章节。比如今天列表相关的知识不是很清楚，就翻书把列表这一章好好看看。
 
 ### 第十章 module
 1. 模块是什么
 2. 模块怎么用：help,官方文档等
 3. 一些标准的库：rand,time,sys,os,集合，堆，双端队列
 
-```
+```python
 # 创建一副牌并发牌,打乱发牌
 
 values = list(range(1, 11)) + 'Jack Queen King'.split()
@@ -28,4 +28,6 @@ pprint(deck[:])
 from random import shuffle
 shuffle(deck)
 pprint(deck[:])
+while deck:
+    input(deck.pop())
 ```
