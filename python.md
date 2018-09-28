@@ -1,6 +1,6 @@
 #### 9.26,9.27
 
-### 注意
+### 总结
 1. 一定要先记住python的框架，就像学c一样:
 > 比如**c大概有：数据类型，表达式，选择，循环，数组，函数，指针，结构体，位运算，文件**这几个重点。
 
@@ -14,3 +14,18 @@
 1. 模块是什么
 2. 模块怎么用：help,官方文档等
 3. 一些标准的库：rand,time,sys,os,集合，堆，双端队列
+
+```
+# 创建一副牌并发牌,打乱发牌
+
+values = list(range(1, 11)) + 'Jack Queen King'.split()
+suits = 'diamonds clubs hearts spades'.split()
+deck = ['{} of {}'.format(v, s) for v in values for s in suits]
+
+from pprint import pprint
+pprint(deck[:])
+
+from random import shuffle
+shuffle(deck)
+pprint(deck[:])
+```
