@@ -9,3 +9,4 @@
 > `vim`,`emacs`,`Sublime Text`, `Atom`, `VS Code`和`Notepad++`
 4. 现在遇到了一个问题，atom上面修改过的文档怎么直接推送到github上面
 > 现在好像解决了，只有保存之后才会显示git提交的命令，但是又遇到了一个新的问题，这样的话github desktop还有用没有
+5. 又遇到了一个问题，好像右下角的undo不能都用，否则会把之前的记录也会提交上去
