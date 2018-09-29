@@ -26,3 +26,4 @@
 > 在atom上面每次先要fetch一下，看看github上面有什么修改没有，如果有，则pull一下，如果没有，则自己在atom上面写好之后CTRL+s保存，然后把改版从unstaged changes放到staged changes，在commit message的栏里简短的写上这一次的改变，然后点击commit to master，最后点击push
 
 7. 好像还可以撤销之前提交的修改
+>这个现在用处还不是太大，了解就行
